@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Google</title>
+  <script src="https://kit.fontawesome.com/1eddc9d798.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+
+    <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"
+      class="nav-links-1">About</a>
+    <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1"
+      class="nav-links-1">Store</a>
+
+    <div class="nav-div">
+      <div class="nav-links">
+        <a href="https://mail.google.com/mail/?authuser=0&ogbl">Gmail</a>
+        <a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a>
+        <div class="icon-div">
+          <a href="https://labs.google.com/search?source=hp&authuser=0" title="Search Labs"><i class="fa-solid fa-flask" alt="search_lab_icon"></i></a>
+          <a title="Google Apps"><i class="fa-solid fa-list-ul" alt="google_apps_icon"></i></a>
+          <a title="Google Account"><i class="fa-solid fa-user" alt="google_account_icon"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Google</h1>
+    <section class="search-container">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass" alt="magnifying_glass_icon"></i>
+        <!-- SpellCheck = false to stop the user from getting the red squiggly lines when typing  -->
+        <textarea class="search-hover" id="user-search" spellCheck="false"  ></textarea>
+        <i class="fa-solid fa-xmark clear-button" id="clear-search" alt="clear_search_icon" onClick="clearSearch()"></i>
+        <i class="fa-solid fa-microphone" title="Search by voice" alt="microphone_icon"></i>
+        <i class="fa-solid fa-image" title="Search by image" alt="image_icon"></i>
+      </div>
+      <div class="search-buttons">
+        <button onClick="userSearch()" class="search-button">Google Search</button>
+        <button class="search-button" id="lucky-button">I'm Feeling Lucky</button>
+      </div>
+    </section>
+    <p>Add AI skills to your resume with <a href="https://grow.google/certificates/?utm_source=google&utm_medium=hpp&utm_campaign=applied-ai__geo--Global&utm_content=owned" class="google-career-link">Google Career Certificates</a></p>
+  </main>
+  
+  <footer class="footer-container">
+    <div class="footer-div">
+      <div class="footer-main">
+        <div class="footer-div">
+          <a
+            href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+          <a
+            href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+        </div>
+        <div class="footer-action">
+          <a href="https://sustainability.google/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><i class="fa-brands fa-envira" alt="leaf_icon"></i>Our third decade of climate action: join us</a>
+        </div>
+        <div class="footer-div">
+          <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+          <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+          <a href="">Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

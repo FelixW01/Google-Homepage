@@ -1,0 +1,188 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #202124;
+  font-family: arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Header  */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem .5rem .5rem .5rem;
+  font-size: .9rem;
+}
+
+.nav-div {
+  width: 100%
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 1rem;
+}
+
+.icon-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-div a {
+  padding: 0 .4rem 0 .4rem;
+  font-size: 1.1rem;
+}
+
+.nav-links-1 {
+  margin-left: .8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #E8EAED;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon-div i:hover {
+  background-color: #3C4043;
+  border-radius: 100px;
+}
+/* Header  */
+
+/* Hero  */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #E8EAED;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 5rem;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5f6368;
+  border-radius: 1.5rem;
+  width: 40rem;
+  height: 3rem;
+  
+}
+
+textArea {
+  border-bottom: 8px solid transparent;
+  font-size: 1rem;
+  background-color: #202124;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 75%;
+  padding-top: 10px;
+  color: #E8EAED;
+  line-height: 10px;
+  overflow-x: hidden;
+}
+
+.search-bar:hover{
+    background-color: #303134;
+  .search-hover {
+    background-color: #303134;
+  }
+}
+
+.search-buttons {
+  margin: 1.5rem .5rem .5rem .5rem;
+}
+
+.search-button {
+  background-color: #303134;
+  color: #E8EAED;
+  padding: .5rem .75rem .5rem .75rem;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  margin: .75rem 0.5rem 0 .5rem;
+}
+
+.search-button:hover {
+  border: 1px solid #5F6368;
+}
+
+i {
+  padding: .5rem .75rem .5rem .75rem;
+}
+
+.google-career-link {
+  color: #8AB4F8;
+}
+.clear-button {
+  display: none;
+  border-right: solid 1px #5f6368;
+}
+/* Hero  */
+
+/* Footer  */
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  align-items: center;
+  background-color: #171717;
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+  font-size: .8rem;
+}
+
+.footer-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 0 .5rem 0; 
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row-wrap;
+}
+.footer-div a {
+  padding: .9rem;
+}
+/* Footer  */
