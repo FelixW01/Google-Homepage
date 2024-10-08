@@ -19,12 +19,12 @@ To run locally, follow these steps:
 
 1. Clone the repository using the following command:
     ```bash
-    git clone https://github.com/FelixW01/lilis-bakery.git
+    
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd lilis-bakery
+    cd Google-Project
     ```
 
 3. Install dependencies:
