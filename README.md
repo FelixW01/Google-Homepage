@@ -1,7 +1,7 @@
 # Google Homepage
 
 ## Live Website 
-https://felixw01.github.io/GoogleHomepage/
+https://felixw01.github.io/Google-Homepage/
 
 ## Description
 Welcome to a clone of Google's homepage. This project was created solely for the purpose of strengthening the best practices of HTML, CSS and JavaScript.
