@@ -30,10 +30,7 @@ To run locally, follow these steps:
     cd Google-Project
     ```
     
-4. Run the application:
-    ```bash
-    Open via live server in your web browser.
-    ```
+4. To run the application, open via live server in your web browser.
 
 
 ## Contributing
